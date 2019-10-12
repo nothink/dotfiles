@@ -1,0 +1,3 @@
+set nowrap
+
+include "~/.nano/*.nanorc"
