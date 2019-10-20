@@ -21,15 +21,17 @@ ln -sf .dotfiles/Brewfile .Brewfile
 
 # homebrew
 echo "# * homebrew"
-if ! type "brew" > /dev/null; then
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-else
-    echo "# * * homebrew exists. continue... "
+if type "brew" > /dev/null; then
+    echo "# * * homebrew exists. uninstalling... "
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
 fi
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 brew update
 brew doctor
+brew cask zap
 brew cleanup -s
-brew cask cleanup --outdated
+brew missing
 brew upgrade
 
 # do brew bundle.
