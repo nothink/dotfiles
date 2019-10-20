@@ -1,6 +1,7 @@
 
 # dotfiles
 
+(https://github.com/nothink/dotfiles/workflows/ci-mac/badge.svg)
 
 ## usage
 

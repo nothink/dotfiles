@@ -1,4 +1,4 @@
-name: Bootstrap on macOS
+name: ci-mac
 
 on: [push]
 
