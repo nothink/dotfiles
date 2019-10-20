@@ -28,6 +28,11 @@ else
 fi
 brew update
 brew doctor
+brew cleanup -s
+brew cask cleanup --outdated
+brew upgrade
+
+# do brew bundle.
 brew tap Homebrew/bundle
 brew bundle --global
 
@@ -35,4 +40,4 @@ brew bundle --global
 rcup
 
 # install pure-prompt
-yarn install pure-prompt
+yarn global add pure-prompt
