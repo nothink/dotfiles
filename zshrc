@@ -19,6 +19,10 @@ zplug "mollifier/cd-gitroot"
 zplug "b4b4r07/enhancd", use:enhancd.sh
 zplug "supercrabtree/k"
 
+zplug "asdf-vm/asdf"
+source $ZPLUG_REPOS/asdf-vm/asdf/asdf.sh
+source $ZPLUG_REPOS/asdf-vm/asdf/completions/asdf.bash
+
 # install or load
 if ! zplug check --verbose; then
   printf 'Install? [y/N]: '

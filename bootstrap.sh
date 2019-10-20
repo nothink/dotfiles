@@ -30,3 +30,9 @@ brew update
 brew doctor
 brew tap Homebrew/bundle
 brew bundle --global
+
+# restore rc files
+rcup
+
+# install pure-prompt
+yarn install pure-prompt
