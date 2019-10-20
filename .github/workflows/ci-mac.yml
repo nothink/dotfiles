@@ -1,0 +1,10 @@
+name: Bootstrap on macOS
+
+on: [push]
+
+jobs:
+  bootstrap:
+    name: Bootstap on macOS using bootstrap.sh
+    runs-on: macOS-latest
+    steps:
+      - run: curl -sf https://raw.githubusercontent.com/nothink/dotfiles/master/mac_bootstrap.sh | sh -s
