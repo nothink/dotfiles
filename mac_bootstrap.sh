@@ -6,17 +6,17 @@ echo "#"
 echo "# Setup macOS..."
 echo "#"
 
+# # xcode-select
+# echo "# * xcode-select"
+# xcode-select --install
+
 # sotrwareupdate
 echo "# * softwareupdate"
 softwareupdate -i -a
 
-# xcode-select
-echo "# * xcode-select"
-xcode-select --install
-
 # github clone
 echo "# * clone .dotfiles"
-git clone git@github.com:nothink/dotfiles.git ~/.dotfiles
+git clone https://github.com/nothink/dotfiles.git ~/.dotfiles
 ln -sf .dotfiles/Brewfile .Brewfile
 
 # homebrew

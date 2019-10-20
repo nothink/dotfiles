@@ -1,7 +1,7 @@
 
 # dotfiles
 
-(https://github.com/nothink/dotfiles/workflows/ci-mac/badge.svg)
+![Action Status]](https://github.com/nothink/dotfiles/workflows/ci-mac/badge.svg "badge")
 
 ## usage
 
