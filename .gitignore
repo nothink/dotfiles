@@ -1,6 +1,11 @@
+.DS_Store
+node_modules
+cache
+
 config/configstore
 config/devcert
 config/fisher
 config/gatsby
 config/gcloud
 config/yarn
+config/qBittorrent
