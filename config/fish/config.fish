@@ -10,3 +10,5 @@ set GHQ_SELECTOR peco
 function fish_user_key_bindings
   bind \cr 'peco_select_history (commandline -b)'
 end
+
+set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
