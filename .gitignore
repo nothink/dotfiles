@@ -11,3 +11,4 @@ config/gatsby
 config/gcloud
 config/yarn
 config/qBittorrent
+config/hub
