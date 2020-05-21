@@ -12,3 +12,5 @@ function fish_user_key_bindings
 end
 
 set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
+
+set -g fish_user_paths $HOME/.nodebrew/current/bin $fish_user_paths
