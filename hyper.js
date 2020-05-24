@@ -168,5 +168,5 @@ module.exports = {
     // Example
     // 'window:devtools': 'cmd+alt+o',
   },
-  scrollback: 1000000,
+  scrollback: 100000000,
 };
