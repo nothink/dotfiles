@@ -6,9 +6,9 @@ echo "#"
 echo "# Setup macOS..."
 echo "#"
 
-# # xcode-select
-# echo "# * xcode-select"
-# xcode-select --install
+# xcode-select
+echo "# * xcode-select"
+xcode-select --install
 
 # sotrwareupdate
 echo "# * softwareupdate"
@@ -16,8 +16,7 @@ softwareupdate -i -a
 
 # github clone
 echo "# * clone .dotfiles"
-git clone https://github.com/nothink/dotfiles.git ~/.dotfiles
-ln -sf .dotfiles/Brewfile .Brewfile
+git clone https://github.com/nothink-sbinc/dotfiles.git ~/.dotfiles
 
 # homebrew
 echo "# * homebrew"
@@ -34,11 +33,9 @@ brew missing
 brew upgrade
 
 # do brew bundle.
+ln -sf ~/.dotfiles/Brewfile ~/.Brewfile
 brew tap Homebrew/bundle
 brew bundle --global
 
 # restore rc files
 rcup
-
-# install pure-prompt
-yarn global add pure-prompt
