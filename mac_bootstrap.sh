@@ -26,6 +26,7 @@ if type "brew" > /dev/null; then
 fi
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+echo "# * * updating homebrew..."
 brew update
 brew doctor
 brew cleanup -s
@@ -33,9 +34,13 @@ brew missing
 brew upgrade
 
 # do brew bundle.
+echo "# * * updating homebrew bundles..."
 ln -sf ~/.dotfiles/Brewfile ~/.Brewfile
 brew tap Homebrew/bundle
 brew bundle --global
 
 # restore rc files
+echo "# * restore rc files"
 rcup
+
+echo "# * Finished. *"
