@@ -5,6 +5,8 @@ set -x PATH ~/.bin $PATH
 set -x LANG ja_JP.UTF-8
 set -x EDITOR /usr/local/bin/nano
 
+set -x CLOUDSDK_PYTHON python2
+
 set GHQ_SELECTOR peco
 
 function fish_user_key_bindings
@@ -14,3 +16,5 @@ end
 set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 
 set -g fish_user_paths $HOME/.nodebrew/current/bin $fish_user_paths
+
+status --is-interactive; and source (rbenv init -|psub)
