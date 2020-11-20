@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily: '"Menlo for Powerline", "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -36,7 +36,7 @@ module.exports = {
     cursorShape: 'BLOCK',
 
     // set to `true` (without backticks and without quotes) for blinking cursor
-    cursorBlink: true,
+    cursorBlink: false,
 
     // color of the text
     foregroundColor: '#fff',
@@ -110,9 +110,7 @@ module.exports = {
     shellArgs: ['--login'],
 
     // for environment variables
-    env: {
-        TERM: 'xterm-256color'
-    },
+    env: {},
 
     // set to `false` for no bell
     bell: 'SOUND',
@@ -148,16 +146,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-    "hyper-afterglow",
-    "hyper-quit",
-    "hyper-statusline",
-    "hyper-search",
-    "hypercwd",
-    "hyper-opacity",
-    "hyper-pane",
-    "hyper-tab-icons-plus"
-  ],
+  plugins: ["hyper-afterglow", "hyper-opacity", "hyper-tabs-enhanced", "hyper-search"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
@@ -168,5 +157,4 @@ module.exports = {
     // Example
     // 'window:devtools': 'cmd+alt+o',
   },
-  scrollback: 100000000,
 };
