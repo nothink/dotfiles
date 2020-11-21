@@ -3,12 +3,3 @@ node_modules
 cache
 
 *.log
-
-config/configstore
-config/devcert
-config/fisher
-config/gatsby
-config/gcloud
-config/yarn
-config/qBittorrent
-config/hub
