@@ -139,10 +139,6 @@ module.exports = {
     webGLRenderer: true,
 
     // for advanced config flags please refer to https://hyper.is/#cfg
-    opacity: {
-      focus: 0.999,
-      blur: 0.666,
-    },
   },
 
   // a list of plugins to fetch and install from npm
@@ -152,9 +148,6 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyper-afterglow',
-    'hyper-opacity',
-    'hyper-tabs-enhanced',
     'hyper-search',
     'hyper-quit',
     'hyper-fading-scrollbar',
@@ -163,7 +156,7 @@ module.exports = {
     'hyper-statusline',
     'hyper-drop-file',
     'hyper-tab-icons',
-    'verminal',
+    'verminal'
   ],
 
   // in development, you can create a directory under
