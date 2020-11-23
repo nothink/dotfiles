@@ -15,10 +15,11 @@ brew "nodebrew"
 brew "poetry"
 brew "pyenv"
 brew "rcm"
-brew "terminal-notifier"
 brew "unrar"
 brew "wget"
 brew "yarn"
+cask "adobe-creative-cloud"
+cask "adobe-creative-cloud-cleaner-tool"
 cask "alfred"
 cask "discord"
 cask "dropbox"
@@ -36,6 +37,7 @@ mas "1Password 7", id: 1333542190
 mas "AS Timer", id: 512464723
 mas "com.adriangranados.wifiexplorerlite", id: 1408727408
 mas "CotEditor", id: 1024640650
+mas "Dropmark", id: 554314609
 mas "EdgeView 2", id: 1206246482
 mas "MindNode", id: 1289197285
 mas "NextDNS", id: 1464122853
@@ -44,4 +46,5 @@ mas "Simplenote", id: 692867256
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
 mas "TickTick", id: 966085870
+mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
