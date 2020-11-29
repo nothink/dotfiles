@@ -12,8 +12,9 @@ module.exports = {
     fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily:
-      '"Meslo LG M DZ for Powerline", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    //fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    //fontFamily: '"FiraCode Nerd Font"',
+    fontFamily: '"MesloLGLDZ Nerd Font"',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -156,7 +157,7 @@ module.exports = {
     'hyper-statusline',
     'hyper-drop-file',
     'hyper-tab-icons',
-    'verminal'
+    'hyperterm-material',
   ],
 
   // in development, you can create a directory under
