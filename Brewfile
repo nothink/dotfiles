@@ -4,18 +4,25 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+brew "coreutils"
+brew "asdf"
 brew "ctop"
+brew "curl"
 brew "fish"
+brew "git"
 brew "htop"
 brew "jq"
 brew "mas"
 brew "nano"
 brew "node"
 brew "nodebrew"
+brew "p7zip"
 brew "poetry"
 brew "pyenv"
+brew "pyenv-ccache"
+brew "rbenv"
 brew "rcm"
-brew "unrar"
+brew "unar"
 brew "wget"
 brew "yarn"
 cask "adobe-creative-cloud"
@@ -41,6 +48,7 @@ mas "com.adriangranados.wifiexplorerlite", id: 1408727408
 mas "CotEditor", id: 1024640650
 mas "Dropmark", id: 554314609
 mas "EdgeView 2", id: 1206246482
+mas "LINE", id: 539883307
 mas "MindNode", id: 1289197285
 mas "NextDNS", id: 1464122853
 mas "Numbers", id: 409203825
