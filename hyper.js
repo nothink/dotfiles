@@ -12,7 +12,8 @@ module.exports = {
     fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily: '"Menlo for Powerline", "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    //fontFamily: '"Menlo for Powerline", "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: '"MesloLGS NF"',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',

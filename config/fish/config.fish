@@ -14,3 +14,5 @@ end
 set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 
 set -g fish_user_paths $HOME/.nodebrew/current/bin $fish_user_paths
+
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
