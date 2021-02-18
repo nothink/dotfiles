@@ -7,6 +7,8 @@ set -x EDITOR nano
 
 set GHQ_SELECTOR peco
 
+set -x COMPOSE_DOCKER_CLI_BUILD 1
+
 function fish_user_key_bindings
   bind \cr 'peco_select_history (commandline -b)'
 end
