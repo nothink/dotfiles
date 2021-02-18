@@ -7,6 +7,7 @@ set -x EDITOR nano
 
 set GHQ_SELECTOR peco
 
+set -x DOCKER_BUILDKIT 1
 set -x COMPOSE_DOCKER_CLI_BUILD 1
 
 function fish_user_key_bindings
