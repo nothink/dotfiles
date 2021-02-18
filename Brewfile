@@ -8,6 +8,8 @@ brew "coreutils"
 brew "asdf"
 brew "ctop"
 brew "curl"
+brew "jpeg"
+brew "ffmpeg"
 brew "fish"
 brew "git"
 brew "gnupg"
@@ -20,6 +22,7 @@ brew "node"
 brew "nodebrew"
 brew "p7zip"
 brew "poetry"
+brew "postgresql"
 brew "pyenv"
 brew "pyenv-ccache"
 brew "rbenv"
@@ -28,10 +31,14 @@ brew "unar"
 brew "unzip"
 brew "wget"
 brew "yarn"
+brew "zlib"
 cask "adobe-creative-cloud"
 cask "adobe-creative-cloud-cleaner-tool"
 cask "alfred"
+cask "ccleaner"
+cask "deepl"
 cask "discord"
+cask "docker"
 cask "dropbox"
 cask "figma"
 cask "font-fira-code-nerd-font"
@@ -40,11 +47,13 @@ cask "gitkraken"
 cask "google-chrome"
 cask "google-japanese-ime"
 cask "hyper"
+cask "keka"
 cask "logitech-options"
 cask "mpv"
+cask "omnioutliner"
 cask "onyx"
 cask "postman"
-cask "slite"
+cask "qbittorrent"
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
 mas "AS Timer", id: 512464723
@@ -52,6 +61,8 @@ mas "com.adriangranados.wifiexplorerlite", id: 1408727408
 mas "CotEditor", id: 1024640650
 mas "Dropmark", id: 554314609
 mas "EdgeView 2", id: 1206246482
+mas "InspectPNG", id: 498851708
+mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "MindNode", id: 1289197285
 mas "NextDNS", id: 1464122853
@@ -59,6 +70,7 @@ mas "Numbers", id: 409203825
 mas "Simplenote", id: 692867256
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
+mas "Speedtest", id: 1153157709
 mas "TickTick", id: 966085870
 mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
