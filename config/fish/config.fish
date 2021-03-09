@@ -4,6 +4,7 @@
 set -x PATH ~/.bin $PATH
 set -x LANG ja_JP.UTF-8
 set -x EDITOR nano
+set -x NAMESPACE ug008-ishii
 
 set GHQ_SELECTOR peco
 
