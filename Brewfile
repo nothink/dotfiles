@@ -42,6 +42,7 @@ cask "logitech-options"
 cask "mpv"
 cask "omnioutliner"
 cask "onyx"
+cask "postico"
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
 mas "AS Timer", id: 512464723
