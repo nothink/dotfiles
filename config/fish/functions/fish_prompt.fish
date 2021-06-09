@@ -2,7 +2,7 @@ function fish_prompt
     string unescape $$_tide_left_prompt_display_var
 end
 
-
+############################################################################
 # wakatime for fish
 #
 # Add this to the fish_prompt function in
