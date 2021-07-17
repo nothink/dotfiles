@@ -126,7 +126,7 @@ module.exports = {
         // for advanced config flags please refer to https://hyper.is/#cfg
 
         scrollback: 100000,
-        opacity: 0.9,
+        opacity: 0.98,
     },
     // a list of plugins to fetch and install from npm
     // format: [@org/]project[#version]
@@ -139,7 +139,7 @@ module.exports = {
         "hyper-quit",
         "hyper-aura-theme",
         "hyper-tabs-enhanced",
-        "hyper-opacity",    
+        "hyper-opacity"
     ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
