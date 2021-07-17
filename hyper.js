@@ -138,7 +138,7 @@ module.exports = {
         "hypercwd",
         "hyper-quit",
         "hyper-aura-theme",
-        "hyper-tabs-enhanced",
+        "hyper-tab-icons",
         "hyper-opacity"
     ],
     // in development, you can create a directory under
