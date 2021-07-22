@@ -4,5 +4,6 @@ cache
 
 *.log
 
-config/gcloud
-config/yarn
+config/*
+!config/fish/config.fish
+!config/fish/fish_plugins

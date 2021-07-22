@@ -43,3 +43,6 @@ brew bundle install --global
 # restore rc files
 echo "********** restore rc files **********"
 rcup
+
+# install fisher and update
+fish -c "curl -sL git.io/fisher | source && fisher update"
