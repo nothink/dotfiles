@@ -31,7 +31,7 @@ module.exports = {
         foregroundColor: '#fff',
         // terminal background color
         // opacity is only supported on macOS
-        backgroundColor: 'rgba(0,0,0,0.98)',
+        backgroundColor: 'rgba(0,0,0,0.9)',
         // terminal selection color
         selectionColor: 'rgba(248,28,229,0.3)',
         // border color (window, tabs)
@@ -126,7 +126,7 @@ module.exports = {
         // for advanced config flags please refer to https://hyper.is/#cfg
 
         scrollback: 100000,
-        opacity: 0.98,
+        opacity: 0.95,
     },
     // a list of plugins to fetch and install from npm
     // format: [@org/]project[#version]
