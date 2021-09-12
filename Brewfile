@@ -63,5 +63,4 @@ mas "Pixave", id: 924891282
 mas "Pixelmator Pro", id: 1289583905
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
-mas "TickTick", id: 966085870
 mas "Xcode", id: 497799835
