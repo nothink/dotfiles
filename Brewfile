@@ -4,16 +4,15 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 brew "act"
-brew "coreutils"
 brew "asdf"
 brew "bat"
 brew "ctop"
 brew "curl"
-brew "jpeg"
 brew "ffmpeg"
 brew "fish"
 brew "git"
 brew "gnupg"
+brew "graphviz"
 brew "mariadb-connector-c"
 brew "mas"
 brew "nano"
@@ -22,7 +21,6 @@ brew "postgresql"
 brew "rcm"
 brew "tree"
 brew "unar"
-brew "wakatime-cli"
 brew "wget"
 cask "alfred"
 cask "ccleaner"
@@ -50,6 +48,7 @@ cask "omnioutliner"
 cask "onyx"
 cask "qlvideo"
 cask "staruml"
+cask "typora"
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
 mas "AS Timer", id: 512464723
@@ -63,4 +62,5 @@ mas "Pixave", id: 924891282
 mas "Pixelmator Pro", id: 1289583905
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
+mas "White Noise", id: 415139197
 mas "Xcode", id: 497799835
