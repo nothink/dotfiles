@@ -4,8 +4,11 @@ set -x LANG ja_JP.UTF-8
 set -x EDITOR nano
 set -x PAGER bat
 
-# aliases
+# aliases (every using)
 alias ls="ls -FG"
+
+# TODO: use abbr fro utils
+# https://qiita.com/wataash/items/ab0a8b86b60e782f537f
 
 set -x DOCKER_BUILDKIT 1
 set -x COMPOSE_DOCKER_CLI_BUILD 1
