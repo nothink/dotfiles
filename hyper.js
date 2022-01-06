@@ -10,7 +10,7 @@ module.exports = {
         // default font size in pixels for all tabs
         fontSize: 12,
         // font family with optional fallbacks
-        fontFamily: '"MesloLGLDZ Nerd Font", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+        fontFamily: '"MesloLGS NF", Menlo, Consolas, "Lucida Console", monospace',
         // default font weight: 'normal' or 'bold'
         fontWeight: 'normal',
         // font weight for bold characters: 'normal' or 'bold'
@@ -26,12 +26,12 @@ module.exports = {
         // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
         cursorShape: 'BLOCK',
         // set to `true` (without backticks and without quotes) for blinking cursor
-        cursorBlink: true,
+        cursorBlink: false,
         // color of the text
         foregroundColor: '#fff',
         // terminal background color
         // opacity is only supported on macOS
-        backgroundColor: 'rgba(0,0,0,0.9)',
+        backgroundColor: '#000',
         // terminal selection color
         selectionColor: 'rgba(248,28,229,0.3)',
         // border color (window, tabs)
@@ -92,7 +92,7 @@ module.exports = {
         //
         // Cygwin
         // - Example: `C:\\cygwin64\\bin\\bash.exe`
-        shell: '/usr/local/bin/fish',
+        shell: '',
         // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
         // by default `['--login']` will be used
         shellArgs: ['--login'],
@@ -101,7 +101,7 @@ module.exports = {
         // Supported Options:
         //  1. 'SOUND' -> Enables the bell as a sound
         //  2. false: turns off the bell
-        bell: false,
+        bell: 'SOUND',
         // An absolute file path to a sound file on the machine.
         // bellSoundURL: '/path/to/sound/file',
         // if `true` (without backticks and without quotes), selected text will automatically be copied to the clipboard
@@ -117,16 +117,15 @@ module.exports = {
         macOptionSelectionMode: 'vertical',
         // Whether to use the WebGL renderer. Set it to false to use canvas-based
         // rendering (slower, but supports transparent backgrounds)
-        webGLRenderer: true,
+        webGLRenderer: false,
         // keypress required for weblink activation: [ctrl|alt|meta|shift]
         // todo: does not pick up config changes automatically, need to restart terminal :/
         webLinksActivationKey: '',
         // if `false` (without backticks and without quotes), Hyper will use ligatures provided by some fonts
         disableLigatures: true,
+        // set to true to disable auto updates
+        disableAutoUpdates: false,
         // for advanced config flags please refer to https://hyper.is/#cfg
-
-        scrollback: 100000,
-        opacity: 0.95,
     },
     // a list of plugins to fetch and install from npm
     // format: [@org/]project[#version]
