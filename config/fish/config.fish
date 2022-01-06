@@ -1,4 +1,5 @@
-set -x PATH ~/.bin $PATH
+fish_add_path $HOME/.bin
+
 set -x LANG ja_JP.UTF-8
 set -x EDITOR nano
 set -x PAGER bat
