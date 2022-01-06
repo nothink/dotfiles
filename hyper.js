@@ -26,7 +26,7 @@ module.exports = {
         // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
         cursorShape: 'BLOCK',
         // set to `true` (without backticks and without quotes) for blinking cursor
-        cursorBlink: false,
+        cursorBlink: true,
         // color of the text
         foregroundColor: '#fff',
         // terminal background color
@@ -101,7 +101,7 @@ module.exports = {
         // Supported Options:
         //  1. 'SOUND' -> Enables the bell as a sound
         //  2. false: turns off the bell
-        bell: 'SOUND',
+        bell: false,
         // An absolute file path to a sound file on the machine.
         // bellSoundURL: '/path/to/sound/file',
         // if `true` (without backticks and without quotes), selected text will automatically be copied to the clipboard
@@ -126,6 +126,8 @@ module.exports = {
         // set to true to disable auto updates
         disableAutoUpdates: false,
         // for advanced config flags please refer to https://hyper.is/#cfg
+        scrollback: 100000,
+        opacity: 0.95,
     },
     // a list of plugins to fetch and install from npm
     // format: [@org/]project[#version]

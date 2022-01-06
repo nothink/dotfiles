@@ -44,6 +44,9 @@ brew bundle --global
 echo " ******************* restore rc files ******************* "
 rcup
 
+# update fish settings
+echo -e "\nsource "(brew --prefix asdf)"/libexec/asdf.fish" >> ~/.config/fish/config.fish
+
 # install fisher and update
 fish -c "curl -sL git.io/fisher | source && fisher update"
 
