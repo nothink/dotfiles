@@ -7,5 +7,5 @@
 
 ### macOS
 ```sh
-curl -sf https://raw.githubusercontent.com/nothink/dotfiles/master/mac_bootstrap.sh | sh -s
+curl -sf https://raw.githubusercontent.com/nothink/dotfiles/main/mac_bootstrap.sh | sh -s
 ```
