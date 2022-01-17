@@ -11,14 +11,10 @@ brew "curl"
 brew "fish"
 brew "git"
 brew "gnupg"
-brew "helm"
-brew "mariadb-connector-c"
 brew "mas"
 brew "nano"
 brew "pinentry-mac"
-brew "postgresql"
 brew "rcm"
-brew "skaffold"
 brew "tree"
 brew "unar"
 brew "wget"
@@ -27,14 +23,11 @@ cask "ccleaner"
 cask "deepl"
 cask "discord"
 cask "docker"
-cask "drawio"
 cask "dropbox"
 cask "figma"
-cask "font-fira-code-nerd-font"
 cask "font-meslo-lg-nerd-font"
 cask "font-noto-sans-cjk-jp"
 cask "font-noto-serif-cjk-jp"
-cask "font-roboto"
 cask "gitkraken"
 cask "google-chrome"
 cask "google-cloud-sdk"
@@ -44,10 +37,7 @@ cask "keka"
 cask "logitech-options"
 cask "miro"
 cask "mpv"
-cask "obsidian"
 cask "omnifocus"
-cask "omnigraffle"
-cask "omnioutliner"
 cask "onyx"
 cask "qlvideo"
 cask "visual-studio-code"
@@ -60,7 +50,9 @@ mas "Kindle", id: 405399194
 mas "MindNode", id: 1289197285
 mas "NextDNS", id: 1464122853
 mas "Numbers", id: 409203825
+mas "Pixave", id: 924891282
 mas "Pixelmator Pro", id: 1289583905
+mas "Prime Video", id: 545519333
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
 mas "White Noise", id: 415139197
