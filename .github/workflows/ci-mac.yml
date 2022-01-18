@@ -7,7 +7,6 @@ jobs:
     name: Bootstap on macOS using bootstrap.sh
     runs-on: macos-latest
     steps:
-      - run: curl -sf https://raw.githubusercontent.com/nothink/dotfiles/main/mac_bootstrap.sh | sh -s
-        env:
-          HOMEBREW_BUNDLE_CASK_SKIP: True
-          HOMEBREW_BUNDLE_MAS_SKIP: True
+      - run: HOMEBREW_BUNDLE_CASK_SKIP HOMEBREW_BUNDLE_MAS_SKIP \
+             curl -sf https://raw.githubusercontent.com/nothink/dotfiles/main/mac_bootstrap.sh | \
+             sh -s
