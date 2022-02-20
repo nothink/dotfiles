@@ -1,6 +1,5 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 brew "act"
@@ -19,7 +18,6 @@ brew "tree"
 brew "unar"
 brew "wget"
 cask "alfred"
-cask "ccleaner"
 cask "deepl"
 cask "discord"
 cask "docker"
@@ -28,13 +26,11 @@ cask "figma"
 cask "font-meslo-lg-nerd-font"
 cask "font-noto-sans-cjk-jp"
 cask "font-noto-serif-cjk-jp"
-cask "gitkraken"
 cask "google-chrome"
 cask "google-cloud-sdk"
 cask "google-japanese-ime"
 cask "hyper"
 cask "keka"
-cask "logitech-options"
 cask "miro"
 cask "mpv"
 cask "omnifocus"
@@ -50,10 +46,7 @@ mas "Kindle", id: 405399194
 mas "MindNode", id: 1289197285
 mas "NextDNS", id: 1464122853
 mas "Numbers", id: 409203825
-mas "Pixave", id: 924891282
 mas "Pixelmator Pro", id: 1289583905
 mas "Prime Video", id: 545519333
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
-mas "White Noise", id: 415139197
-mas "Xcode", id: 497799835
