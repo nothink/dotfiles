@@ -28,8 +28,8 @@ if status is-interactive
         set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
     end
 
-    if test -f /usr/local/opt/asdf/libexec/asdf.fish
-        source /usr/local/opt/asdf/libexec/asdf.fish
+    if test -f (brew --prefix asdf)"/libexec/asdf.fish"
+        source (brew --prefix asdf)/libexec/asdf.fish
     end
 
     # Add SSH Key for ssh-agent
