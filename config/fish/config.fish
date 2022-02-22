@@ -16,7 +16,9 @@ if status is-interactive
     set -x DOCKER_BUILDKIT 1
     set -x COMPOSE_DOCKER_CLI_BUILD 1
 
-    source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
+    if test -d /usr/local/Caskroom/google-cloud-sdk/
+        source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
+    end
 
     if test -d (brew --prefix)"/share/fish/completions"
         set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/completions
@@ -26,6 +28,12 @@ if status is-interactive
         set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
     end
 
-    source /usr/local/opt/asdf/libexec/asdf.fish
+    if test -f /usr/local/opt/asdf/libexec/asdf.fish
+        source /usr/local/opt/asdf/libexec/asdf.fish
+    end
 
+    # Add SSH Key for ssh-agent
+    if test -f $HOME/.ssh/id_ed25519
+        ssh-add $HOME/.ssh/id_ed25519
+    end
 end
