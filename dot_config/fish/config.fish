@@ -6,6 +6,7 @@ if status is-interactive
     set -x LANG ja_JP.UTF-8
     set -x EDITOR nano
     set -x PAGER bat
+    set -x GPG_TTY (tty)
 
     # aliases (every using)
     alias ls="ls -FG"
