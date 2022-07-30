@@ -1,0 +1,12 @@
+[user]
+	name = nothink
+	email = gakongakon@gmail.com
+	signingkey = 74B60EA1A994CE4E
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
+[push]
+	default = current
+[fetch]
+	prune = true
