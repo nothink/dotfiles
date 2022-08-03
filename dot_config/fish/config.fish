@@ -35,6 +35,10 @@ if status is-interactive
         if test -f (brew --prefix asdf)"/libexec/asdf.fish"
             source (brew --prefix asdf)/libexec/asdf.fish
         end
+    case Linux
+        if test -f $HOME/.asdf/asdf.fish
+            source $HOME/.asdf/asdf.fish
+        end
     end
 
     # Add SSH Key for ssh-agent
