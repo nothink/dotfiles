@@ -5,6 +5,10 @@ if status is-interactive
     fish_add_path $HOME/.local/bin
 
     set -x LANG ja_JP.UTF-8
+    set -x LANGUAGE ja_JP.UTF-8
+    set -x LC_ALL ja_JP.UTF-8
+
+    set -x SHELL (which fish)
     set -x EDITOR nano
     set -x PAGER bat
     set -x GPG_TTY (tty)
