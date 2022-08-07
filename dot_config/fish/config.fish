@@ -3,6 +3,7 @@ if status is-interactive
 
     fish_add_path $HOME/.bin
     fish_add_path $HOME/.local/bin
+    fish_add_path $HOME/.local/bin
 
     set -x LANG ja_JP.UTF-8
     set -x LANGUAGE ja_JP.UTF-8
@@ -24,6 +25,8 @@ if status is-interactive
 
     switch (uname)
     case Darwin
+        # Homebrew path
+        eval (/opt/homebrew/bin/brew shellenv)
         if test -d /usr/local/Caskroom/google-cloud-sdk/
             source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
         end
