@@ -1,6 +1,7 @@
 tap "homebrew/autoupdate"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 brew "act"
@@ -17,11 +18,12 @@ brew "git"
 brew "hugo"
 brew "mas"
 brew "nano"
-brew "postgresql"
+brew "python@3.10"
 brew "tmux"
 brew "tree"
 brew "unar"
 brew "wget"
+cask "1password"
 cask "alfred"
 cask "deepl"
 cask "discord"
@@ -36,10 +38,27 @@ cask "google-cloud-sdk"
 cask "gpg-suite-no-mail"
 cask "hyper"
 cask "keka"
+cask "logi-options-plus"
 cask "miro"
 cask "mpv"
 cask "notion"
 cask "onyx"
-cask "rocket"
+cask "raycast"
 cask "visual-studio-code"
 cask "zoom"
+mas "AS Timer", id: 512464723
+mas "CotEditor", id: 1024640650
+mas "EdgeView 2", id: 1206246482
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
+mas "MindNode", id: 1289197285
+mas "NextDNS", id: 1464122853
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pixelmator Pro", id: 1289583905
+mas "Prime Video", id: 545519333
+mas "Slack", id: 803453959
+mas "Spark", id: 1176895641
+mas "TickTick", id: 966085870
