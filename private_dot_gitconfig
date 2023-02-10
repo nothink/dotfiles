@@ -1,0 +1,14 @@
+[user]
+	name = nothink
+	email = gakongakon@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFur9eWIySM1HXjPms76kdbYvIp/8mMj9uhk3l8ijUZV
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[push]
+	default = current
+[fetch]
+	prune = true
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign

@@ -3,13 +3,16 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 brew "act"
 brew "asdf"
+brew "awscli"
 brew "bat"
 brew "chezmoi"
 brew "ctop"
 brew "curl"
+brew "firebase-cli"
 brew "fish"
 brew "fzf"
 brew "gh"
@@ -18,13 +21,11 @@ brew "git"
 brew "hugo"
 brew "mas"
 brew "nano"
-brew "python@3.10"
-brew "tmux"
 brew "tree"
 brew "unar"
 brew "wget"
 cask "1password"
-cask "alfred"
+cask "1password-cli"
 cask "deepl"
 cask "discord"
 cask "docker"
@@ -40,6 +41,7 @@ cask "hyper"
 cask "keka"
 cask "logi-options-plus"
 cask "miro"
+cask "mono-mdk-for-visual-studio"
 cask "mpv"
 cask "notion"
 cask "onyx"
@@ -47,10 +49,11 @@ cask "raycast"
 cask "visual-studio-code"
 cask "zoom"
 mas "AS Timer", id: 512464723
+mas "Bluebird", id: 1478757472
 mas "CotEditor", id: 1024640650
 mas "EdgeView 2", id: 1206246482
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
+mas "Evermusic", id: 1564384601
+mas "everyday", id: 1394150432
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "MindNode", id: 1289197285
@@ -61,4 +64,6 @@ mas "Pixelmator Pro", id: 1289583905
 mas "Prime Video", id: 545519333
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
-mas "TickTick", id: 966085870
+mas "TestFlight", id: 899247664
+mas "Xcode", id: 497799835
+mas "Yomu", id: 562211012

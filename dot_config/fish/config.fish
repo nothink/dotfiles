@@ -3,16 +3,17 @@ if status is-interactive
 
     fish_add_path $HOME/.bin
     fish_add_path $HOME/.local/bin
-    fish_add_path $HOME/.local/bin
 
     set -x LANG ja_JP.UTF-8
     set -x LANGUAGE ja_JP.UTF-8
     set -x LC_ALL ja_JP.UTF-8
 
-#    set -x SHELL (which fish)
+    set -x SHELL (which fish)
     set -x EDITOR nano
     set -x PAGER bat
     set -x GPG_TTY (tty)
+
+    set -x SSH_AUTH_SOCK $HOME/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
 
     # aliases (every using)
     alias ls="ls -FG --color=auto"
@@ -42,14 +43,15 @@ if status is-interactive
         if test -f (brew --prefix asdf)"/libexec/asdf.fish"
             source (brew --prefix asdf)/libexec/asdf.fish
         end
+
+        if test -f "/usr/local/bin/op"
+            /usr/local/bin/op completion fish | source
+        end
+
+        op completion fish | source
     case Linux
         if test -f $HOME/.asdf/asdf.fish
             source $HOME/.asdf/asdf.fish
         end
-    end
-
-    # Add SSH Key for ssh-agent
-    if test -f $HOME/.ssh/id_ed25519
-        ssh-add $HOME/.ssh/id_ed25519
     end
 end
