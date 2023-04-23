@@ -49,6 +49,7 @@ if status is-interactive
         end
 
         op completion fish | source
+        # devbox global shellenv | source
     case Linux
         if test -f $HOME/.asdf/asdf.fish
             source $HOME/.asdf/asdf.fish

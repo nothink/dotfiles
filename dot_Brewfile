@@ -3,8 +3,6 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
 brew "act"
 brew "asdf"
 brew "awscli"
@@ -31,6 +29,7 @@ cask "discord"
 cask "docker"
 cask "dropbox"
 cask "figma"
+cask "firefox"
 cask "font-meslo-lg-nerd-font"
 cask "font-noto-sans-cjk-jp"
 cask "font-noto-serif-cjk-jp"
@@ -41,7 +40,6 @@ cask "hyper"
 cask "keka"
 cask "logi-options-plus"
 cask "miro"
-cask "mono-mdk-for-visual-studio"
 cask "mpv"
 cask "notion"
 cask "onyx"
@@ -54,12 +52,9 @@ mas "CotEditor", id: 1024640650
 mas "EdgeView 2", id: 1206246482
 mas "Evermusic", id: 1564384601
 mas "everyday", id: 1394150432
-mas "Keynote", id: 409183694
-mas "Kindle", id: 405399194
 mas "MindNode", id: 1289197285
 mas "NextDNS", id: 1464122853
 mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "Prime Video", id: 545519333
 mas "Slack", id: 803453959
