@@ -32,24 +32,23 @@ if status is-interactive
             source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
         end
 
+        # completions
         if test -d (brew --prefix)"/share/fish/completions"
             set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/completions
         end
-
         if test -d (brew --prefix)"/share/fish/vendor_completions.d"
             set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
         end
 
+        # asdf
         if test -f (brew --prefix asdf)"/libexec/asdf.fish"
             source (brew --prefix asdf)/libexec/asdf.fish
         end
 
+        # 1Password cli
         if test -f "/usr/local/bin/op"
             /usr/local/bin/op completion fish | source
         end
-
-        op completion fish | source
-        # devbox global shellenv | source
     case Linux
         if test -f $HOME/.asdf/asdf.fish
             source $HOME/.asdf/asdf.fish
