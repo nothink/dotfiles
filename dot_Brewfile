@@ -1,0 +1,82 @@
+tap "homebrew/autoupdate"
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+brew "act"
+brew "asdf"
+brew "bat"
+brew "chezmoi"
+brew "curl"
+brew "fish"
+brew "gh"
+brew "git"
+brew "mas"
+brew "nano"
+brew "tree"
+brew "unar"
+brew "wakatime-cli"
+cask "1password"
+cask "deepl"
+cask "discord"
+cask "docker"
+cask "dropbox"
+cask "figma"
+cask "firefox"
+cask "font-meslo-lg-nerd-font"
+cask "font-noto-sans-cjk-jp"
+cask "font-noto-serif-cjk-jp"
+cask "gather"
+cask "google-chrome"
+cask "google-drive"
+cask "hyper"
+cask "logi-options-plus"
+cask "mpv"
+cask "notion"
+cask "onyx"
+cask "raycast"
+cask "visual-studio-code"
+cask "zoom"
+mas "1Password for Safari", id: 1569813296
+mas "CotEditor", id: 1024640650
+mas "DaisyDisk", id: 411643860
+mas "Day One", id: 1055511498
+mas "Kindle", id: 302584613
+mas "MindNode", id: 1289197285
+mas "NextDNS", id: 1464122853
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pixelmator Pro", id: 1289583905
+mas "Slack", id: 803453959
+mas "Spark Desktop", id: 6445813049
+mas "Things", id: 904280696
+mas "Xcode", id: 497799835
+mas "Yomu", id: 562211012
+vscode "aaron-bond.better-comments"
+vscode "alefragnani.Bookmarks"
+vscode "bierner.markdown-mermaid"
+vscode "bmalehorn.vscode-fish"
+vscode "bradlc.vscode-tailwindcss"
+vscode "christian-kohler.path-intellisense"
+vscode "DavidAnson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
+vscode "deque-systems.vscode-axe-linter"
+vscode "dracula-theme.theme-dracula"
+vscode "eamodio.gitlens"
+vscode "EditorConfig.EditorConfig"
+vscode "esbenp.prettier-vscode"
+vscode "figma.figma-vscode-extension"
+vscode "formulahendry.auto-close-tag"
+vscode "formulahendry.auto-rename-tag"
+vscode "github.vscode-github-actions"
+vscode "GitHub.vscode-pull-request-github"
+vscode "golang.go"
+vscode "leodevbro.blockman"
+vscode "ms-azuretools.vscode-docker"
+vscode "MS-CEINTL.vscode-language-pack-ja"
+vscode "naumovs.color-highlight"
+vscode "PKief.material-icon-theme"
+vscode "redhat.vscode-yaml"
+vscode "shd101wyy.markdown-preview-enhanced"
+vscode "skyapps.fish-vscode"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "WakaTime.vscode-wakatime"
+vscode "ZixuanChen.vitest-explorer"

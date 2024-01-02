@@ -21,8 +21,8 @@ if status is-interactive
     # TODO: use abbr fro utils
     # https://qiita.com/wataash/items/ab0a8b86b60e782f537f
 
-    set -x DOCKER_BUILDKIT 1
-    set -x COMPOSE_DOCKER_CLI_BUILD 1
+    # set -x DOCKER_BUILDKIT 1
+    # set -x COMPOSE_DOCKER_CLI_BUILD 1
 
     switch (uname)
     case Darwin
@@ -33,20 +33,20 @@ if status is-interactive
         end
 
         # completions
-        if test -d (brew --prefix)"/share/fish/completions"
+        if test -d (brew --prefix)/share/fish/completions
             set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/completions
         end
-        if test -d (brew --prefix)"/share/fish/vendor_completions.d"
+        if test -d (brew --prefix)/share/fish/vendor_completions.d
             set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
         end
 
         # asdf
-        if test -f (brew --prefix asdf)"/libexec/asdf.fish"
+        if test -f (brew --prefix asdf)/libexec/asdf.fish
             source (brew --prefix asdf)/libexec/asdf.fish
         end
 
         # 1Password cli
-        if test -f "/usr/local/bin/op"
+        if test -f /usr/local/bin/op
             /usr/local/bin/op completion fish | source
         end
     case Linux
